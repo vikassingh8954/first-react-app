@@ -2,7 +2,7 @@ import { useState } from "react";
 import UserContext from "./UserContext";
 
 function FavoriteColor({ children }) {
-  const [color] = useState("red");
+  const [color] = useState("Vikas");
 
   return (
     <UserContext.Provider value={color}>
